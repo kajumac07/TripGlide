@@ -22,7 +22,7 @@ struct CustomTabBar: View {
         }
         .padding(.horizontal, 30)
         .padding(.vertical, 16)
-        .background(Color(red: 0.1, green: 0.1, blue: 0.1)) // Dark background
+        .background(Color(red: 0.1, green: 0.1, blue: 0.1))
         .cornerRadius(40)
         .shadow(color: .black.opacity(0.3), radius: 10, y: 5)
     }
